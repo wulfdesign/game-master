@@ -1,10 +1,10 @@
-# 🌌 GameMaster.io — Campaign Portal
+# 🌌 GameMaster — Campaign Portal
 
 The master landing gateway for **GameMaster.io**, a web-based toolkit for tabletop RPG game masters and players.
 
 ## 🎮 What Is This?
 
-This is the public landing page for GameMaster.io. It provides:
+This is the public landing page for GameMaster. It provides:
 
 *   🗺️ An overview of the platform and its features
 *   🔗 Links to the **static demo site** for offline browsing at conventions and game nights
