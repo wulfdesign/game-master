@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GameMaster - Tabletop Campaign Portal</title>
+    <!-- Google Fonts for Mythic/RPG and Tech Fusion -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&family=Outfit:wght@300;400;600;700;800&family=Space+Grotesk:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="stars"></div>
+    <div class="nebula"></div>
+
+    <!-- Navigation Header -->
+    <header class="main-header">
+        <div class="header-container">
+            <div class="logo">
+                <span class="logo-icon">⚔️</span>
+                <span class="logo-text">GameMaster</span>
+            </div>
+            <nav class="nav-links">
+                <a href="game-master-public/index.html">Lore Scroll</a>
+                <a href="#" class="trigger-modal">The Forge</a>
+                <a href="https://patreon.com/placeholder-wulfdesign" target="_blank">Patreon</a>
+                <a href="https://forms.gle/4u6XfN26fVGFW2026" target="_blank" class="nav-btn-highlight">Early Access</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Layout -->
+    <main class="portal-main">
+        <!-- Hero Section -->
+        <section class="hero-showcase">
+            <div class="hero-image-container">
+                <img src="assets/WelcomeToGameMaster_SteelRealms.jpg" alt="Welcome to GameMaster" class="hero-image">
+                <div class="hero-overlay"></div>
+            </div>
+            <div class="hero-content">
+                <span class="hero-badge">PRE-ALPHA STATIC EARLY RELEASE</span>
+                <h1 class="hero-title">Forge Epic Journeys</h1>
+                <p class="hero-description">
+                    Manage campaigns, generate high-fidelity tabletop assets, and track active character sheets entirely offline. Build your universe with the ultimate companion.
+                </p>
+                <div class="hero-ctas">
+                    <a href="https://forms.gle/4u6XfN26fVGFW2026" target="_blank" class="portal-btn hero-btn-primary">Early Access Signup</a>
+                    <a href="game-master-public/index.html" class="portal-btn hero-btn-secondary">Explore Public Lore</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Card Grid Section -->
+        <section class="portal-section">
+            <h2 class="section-title">THE FORGE REGISTERS</h2>
+            <div class="jumbo-cards-grid">
+                
+                <!-- CARD 1: LORE REFERENCE -->
+                <div class="forge-jumbo-card card-theme-emerald">
+                    <div class="card-header-bar">
+                        <span class="card-label">TIER 0 / PUBLIC ACCESS</span>
+                        <h3 class="card-title">Scroll of Lore</h3>
+                    </div>
+                    <div class="card-body">
+                        <div class="card-illustration">📜</div>
+                        <p class="card-text">
+                            Read the chronicled lore sheets, creature codexes, and custom items for the *Steel Realms* campaign path. Optimized for low-latency tablet display.
+                        </p>
+                        <div class="card-stats">
+                            <div class="stat-box"><span class="stat-val">ACTIVE</span><span class="stat-name">STATUS</span></div>
+                            <div class="stat-box"><span class="stat-val">STATIC</span><span class="stat-name">TYPE</span></div>
+                        </div>
+                    </div>
+                    <div class="card-footer-action">
+                        <a href="game-master-public/index.html" class="card-action-btn">Explore Scroll</a>
+                    </div>
+                </div>
+
+                <!-- CARD 2: THE FORGE -->
+                <div class="forge-jumbo-card card-theme-amethyst">
+                    <div class="card-header-bar">
+                        <span class="card-label">TIER I / CREATORS ONLY</span>
+                        <h3 class="card-title">Campaign Forge</h3>
+                    </div>
+                    <div class="card-body">
+                        <div class="card-illustration">🔥</div>
+                        <p class="card-text">
+                            Access the live interactive app. Build worlds, write adventure tables, and synchronize characters. Requires a verified account.
+                        </p>
+                        <div class="card-stats">
+                            <div class="stat-box"><span class="stat-val">SEALED</span><span class="stat-name">STATUS</span></div>
+                            <div class="stat-box"><span class="stat-val">DYNAMIC</span><span class="stat-name">TYPE</span></div>
+                        </div>
+                    </div>
+                    <div class="card-footer-action">
+                        <button class="card-action-btn trigger-modal">Sign Up for Launch</button>
+                    </div>
+                </div>
+
+                <!-- CARD 3: SANDBOX -->
+                <div class="forge-jumbo-card card-theme-sapphire">
+                    <div class="card-header-bar">
+                        <span class="card-label">TIER II / DEVELOPERS</span>
+                        <h3 class="card-title">Developer Sandbox</h3>
+                    </div>
+                    <div class="card-body">
+                        <div class="card-illustration">🛠️</div>
+                        <p class="card-text">
+                            The staging area for rendering new card layout components and previewing offline compilation grids before staging production merges.
+                        </p>
+                        <div class="card-stats">
+                            <div class="stat-box"><span class="stat-val">STAGING</span><span class="stat-name">STATUS</span></div>
+                            <div class="stat-box"><span class="stat-val">SANDBOX</span><span class="stat-name">TYPE</span></div>
+                        </div>
+                    </div>
+                    <div class="card-footer-action">
+                        <a href="game-master-dev/index.html" class="card-action-btn">Enter Sandbox</a>
+                    </div>
+                </div>
+
+                <!-- CARD 4: ABOUT -->
+                <div class="forge-jumbo-card card-theme-gold">
+                    <div class="card-header-bar">
+                        <span class="card-label">TIER 0 / ARCHIVE</span>
+                        <h3 class="card-title">About the Engine</h3>
+                    </div>
+                    <div class="card-body">
+                        <div class="card-illustration">🛡️</div>
+                        <p class="card-text">
+                            Designed to bridge alchemical tabletop imagination with local-first system architecture, delivering zero-latency offline handouts for GMs.
+                        </p>
+                        <div class="card-stats">
+                            <div class="stat-box"><span class="stat-val">STABLE</span><span class="stat-name">STATUS</span></div>
+                            <div class="stat-box"><span class="stat-val">ARCHIVE</span><span class="stat-name">TYPE</span></div>
+                        </div>
+                    </div>
+                    <div class="card-footer-action">
+                        <button class="card-action-btn trigger-modal">Read Codex</button>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="portal-footer">
+        <div class="footer-contact" style="margin-bottom: 15px;">
+            <p>Questions or Guild Inquiries? Contact us at <a href="mailto:wulfdesign@gmail.com" style="color: var(--color-emerald); text-decoration: none;">wulfdesign@gmail.com</a></p>
+        </div>
+        <p>GameMaster Campaign Engine &bull; GeekFest West 2026</p>
+        <p class="version-stamp">v0.1.1 &bull; Hermes Stabilized &bull; <a href="https://patreon.com/placeholder-wulfdesign" target="_blank" style="color: var(--color-amethyst); text-decoration: none;">Support on Patreon</a></p>
+    </footer>
+
+    <!-- Coming Soon Modal overlay -->
+    <div class="modal-overlay" id="coming-soon-modal">
+        <div class="modal-scroll">
+            <div class="modal-seal">🕯️</div>
+            <h3 class="modal-title">Halt, Adventurer!</h3>
+            <p class="modal-text">
+                The Forge of Creation is currently sealed to guests. Sign-ups and character building will ignite during the next moon cycle.
+            </p>
+            <p class="modal-text">
+                Register below to receive early access blueprints when the seals are broken!
+            </p>
+            <div class="modal-actions">
+                <a href="https://forms.gle/4u6XfN26fVGFW2026" target="_blank" class="modal-btn-primary">Early Access Sign-Up</a>
+                <a href="https://patreon.com/placeholder-wulfdesign" target="_blank" class="modal-btn-close" style="display: block; text-align: center; border-color: var(--color-amethyst); color: #ffffff; text-decoration: none;">Support on Patreon</a>
+                <button class="modal-btn-close" id="close-modal">Return to Gates</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Script for Modal Dialogs -->
+    <script>
+        const modal = document.getElementById('coming-soon-modal');
+        const triggers = document.querySelectorAll('.trigger-modal');
+        const closeBtn = document.getElementById('close-modal');
+
+        triggers.forEach(trigger => {
+            trigger.addEventListener('click', (e) => {
+                e.preventDefault();
+                modal.classList.add('active');
+            });
+        });
+
+        closeBtn.addEventListener('click', () => {
+            modal.classList.remove('active');
+        });
+
+        // Close on clicking outside the scroll
+        modal.addEventListener('click', (e) => {
+            if (e.target === modal) {
+                modal.classList.remove('active');
+            }
+        });
+    </script>
+</body>
+</html>

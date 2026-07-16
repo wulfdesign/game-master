@@ -1,0 +1,9 @@
+# Ignore independent sub-repositories
+/game-master-public/
+/game-master-dev/
+
+# OS/IDE files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
