@@ -653,3 +653,34 @@ body {
         max-width: 100%;
     }
 }
+
+/* QR Code Footer Positioning & Responsiveness */
+.footer-qr-container {
+    position: absolute;
+    right: 20px;
+    bottom: -10px;
+    text-align: center;
+    opacity: 0.85;
+    transition: opacity 0.3s ease;
+}
+.footer-qr-container:hover {
+    opacity: 1;
+}
+.footer-qr-image {
+    width: 72px;
+    height: 72px;
+    border-radius: 6px;
+    border: 1px solid rgba(160, 100, 220, 0.3);
+    box-shadow: 0 0 10px rgba(160, 100, 220, 0.1);
+}
+
+@media (max-width: 768px) {
+    .footer-qr-container {
+        position: static;
+        margin: 20px auto 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100px;
+    }
+}
