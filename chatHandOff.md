@@ -1,7 +1,8 @@
-# 🕯️ Chat Hand-Off: GameMaster.io Landing Portal (v0.3.0)
+# 🕯️ Chat Hand-Off: GameMaster.io Landing Portal (v0.3.7.40)
 
-**Date:** 2026-07-12  
-**Status:** **LANDING PAGE DEPLOYED** 🧪🐈
+**Date:** 2026-07-16  
+**Status:** **LANDING PAGE DEPLOYED & STABILIZED** 🏆🐈  
+**Live URL:** `https://wulfdesign.github.io/game-master/`
 
 ---
 
@@ -15,15 +16,15 @@ It does NOT contain any internal tools, backend code, or build scripts.
 
 ## 2. Current State
 
-*   `index.html` — Landing page with hero carousel, feature overview, and navigation links
-*   `style.css` — Styling for the landing page
-*   `assets/` — Images and media for the landing page
+*   `index.html` — Landing page with hero section, feature cards, and responsive navigation links
+*   `style.css` — Styling for the landing page, including responsive QR code alignment
+*   `assets/` — Images, media, and generated QR code graphics (`qr-code-gamemaster.png` and print-friendly version)
 
-## 3. Outstanding Work
+## 3. Completed Work
 
-*   [ ] **Domain Setup:** Once the live webapp has a domain, update the "Launch App" link
-*   [ ] **Patreon Link:** Update early access signup link once Patreon is created
-*   [ ] **QR Code:** Add a scannable QR code image linking to the GitHub Pages static site
+*   [x] **Patreon Link:** Updated to live link `https://www.patreon.com/c/wulfdesign` across all pages.
+*   [x] **QR Code:** Generated themed QR code and positioned it in the footer container, aligned right to match the card grid and main header splash.
+*   [x] **Early Access Form:** Connected the live Google Form waitlist signup (`https://forms.gle/ALxXRXVbAMFGyCPV6`) to all CTA buttons.
 
 ## 4. Notes for Next Agent
 
